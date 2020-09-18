@@ -1,10 +1,9 @@
 // PracticeThree.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Purpose: Breaking PracticeTwo into separate files include a header file to involve those practices
 
 #include <iostream>
+#include "PracticeThree.h";
 
-int getInteger();
-int addTwoIntegers(int x, int y);
 
 int main()
 {

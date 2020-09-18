@@ -142,6 +142,9 @@
     <ClCompile Include="PracticeThree.cpp" />
     <ClCompile Include="PracticeThreeLibrary.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PracticeThree.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
