@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 
+
 #include "input.h"
 
 char getUserInput() 
@@ -24,11 +25,11 @@ char getUserInput()
 
 int getDictionarySize()
 {
-	std::ifstream inf{ "engmix.txt" };
+	std::ifstream inf{ "five_letter_words.txt" };
 
 	if (!inf) 
 	{
-		std::cerr << "ERROR: Dictionary File Missing!";
+		std::cerr << "ERROR: Dictionary File Missing!\n";
 		return -1;
 	}
 	int itr{ 0 };
@@ -36,15 +37,10 @@ int getDictionarySize()
 	{
 		std::string strInput;
 		std::getline(inf, strInput);
-		std::cout << strInput << "\n";
+		//std::cout << strInput << "\n";
 
 		itr = itr + 1;
 	}
 
 	return itr;
-}
-
-char* getDictionary() 
-{
-	return NULL;
 }

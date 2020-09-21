@@ -4,7 +4,6 @@
 #define INPUT_HEADER
 
 int getDictionarySize();
-char* getDictionary();
 char getUserInput();
 
 #endif
