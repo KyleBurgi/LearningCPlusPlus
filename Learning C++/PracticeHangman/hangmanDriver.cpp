@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#include "input.h"
+#include "inputOutput.h"
 #include "hangman.h"
 
 int main()
