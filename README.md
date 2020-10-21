@@ -7,3 +7,4 @@ This is my journey in learning C++. This consists of small programs for now and 
 2. PracticeOne - Simple add program that takes in user input
 3. PracticeTwo - Takes PracticeOne and breaks it into functions
 4. PracticeThree - Same as PracticeTwo but separating into different files
+5. Hangman - Simple console version of Hangman only using 5 letter words
